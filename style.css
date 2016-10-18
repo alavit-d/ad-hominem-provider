@@ -1,0 +1,77 @@
+body {
+    background-color: #339966;
+}
+
+.container {
+    background-color: white;
+  width: 840px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px #888888;
+    font-family: 'Inconsolata';
+    padding: 20px;
+  text-align: center;
+    position: relative;
+}
+
+.questions {
+    display: none;
+    text-align: center;
+    width: 600px;
+}
+
+.left {
+    float:left;
+}
+
+.final {
+    display: none;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    background: #00d800;
+}
+
+.rangeslider__fill {
+    background: #00d800;
+}
+
+#steth {
+    width: 40px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.bottom {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.instructions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.center {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.final > ul {
+  text-align: left;
+}
